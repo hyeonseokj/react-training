@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+State 개념
+컴포넌트의 입력 - prop 결과(새로운 UI) - return
+프롭과 함께 컴포넌트 함수를 다시 실행해서 새로운 리턴값을 만들어주는 게 state 
+
+프롭과 스테이트 차이점
+프롭은 컴포넌트를 사영하는 외부자를 위한 대이터
+스테이트는 컴포넌트를 사용하는 내부자를 위한 데이터
+State는 배열을 리턴
+배열의 0번째 원소는 상태의 값을 읽을 때 쓰는 데이터, 1번째는 그 상태의 값을 변경할 때 생기는 함수
+
+*숫자를 태그의 속성으로 넘기면 문자열이 됨
